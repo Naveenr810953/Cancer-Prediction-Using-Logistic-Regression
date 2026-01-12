@@ -10,7 +10,7 @@ import warnings
 warnings.filterwarnings('ignore')
 
 # --- 1. Load Data and Train the Model (Backend) ---
-# This part is the same as before, it prepares the model.
+# This part is the same as before,  it prepares the model.
 # We wrap it in a function to cache it, so it doesn't retrain on every interaction.
 @st.cache_data
 def train_model():
